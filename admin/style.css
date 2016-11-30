@@ -1,0 +1,176 @@
+body {
+	background-color: #ecf0f1;
+}
+.kontenLogin {
+	background-color: #fff;
+	border:1px solid #aaa;
+	width: 485px;
+	height: 609px;
+	margin:12px auto;
+}
+.judulLogin,.judTamUser {
+	text-align: center;
+	font-size: 46px;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: relative;
+	top:40px;
+}
+.judTamUser {
+	font-size: 25px;
+	background-color: #3498db;
+	margin-top: -40px;
+	line-height: 74px;
+	color: #fff;
+}
+.formLogin {
+	position: relative;
+	top:176px;
+	text-align: center;
+}
+.login-box,.tambah-box {
+	width: 404px;
+	height: 53px;
+	border-radius: 6px;
+	border:1px solid #aaa;
+	box-shadow: inset 1px 1px 13px #aaa;
+	padding:0px 8px 0px 11px;
+	color: #888;
+	font-size: 20px;
+}
+#password {	margin-top: 43px; }
+.tblLogin,.tblTambah,.ubahInfo {
+	background-color: #3498db;
+	width: 400px;
+	height: 55px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 24px;
+	border:none;
+	border-radius: 5px;
+	margin-top: 123px;
+	transition: 0.6s;
+}
+.tblLogin:hover {
+	background-color: #2980b9;
+	cursor: pointer;
+}
+.tblLogin:active {
+	background-color: #e74c3c;
+}
+.atasAdm {
+	background-color: #3498db;
+	position: absolute;
+	top:0px;left: 0px;right: 55px;
+	line-height: 79px;
+	border-bottom-right-radius: 13px;
+}
+.judulAdm {
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 28px;
+	margin:-2px 0px 0px 46px;
+}
+.plusUser,.plusUser2 {
+	float: right;
+	margin:11px 25px;
+	width: 200px;
+	height: 46px;
+	background-color: #2ecc71;
+	color: #fff;
+	font-weight: bold;
+	border:none;
+	border-radius: 6px;
+	transition: 0.4s;
+}
+.plusUser:hover { background-color: #27ae60;cursor: pointer; }
+.kontenAdm {
+	position: absolute;
+	top:92px;left: 0px;right: 80px;bottom: 0px;
+	background-color: #2980b9;
+	border-top-right-radius: 13px;
+	color: #fff;
+	font-family: sans-serif;
+	overflow: auto;
+}
+.tabelUser {
+	margin-top: 10px;
+	color: #fff;
+	text-align: center;
+}
+.jud1,.jud2,.jud3,.jud4,.jud5,.jud6 {
+	background-color: #3498db;
+	line-height: 46px;
+}
+.jud1 { width: 122px; }
+.jud2 { width: 250px; }
+.jud3 { width: 321px; }
+.jud4 { width: 270px; }
+.jud5 { width: 140px;}
+.jud6 { width: 150px;border-top-right-radius: 13px; }
+.delUser {
+	background-color: #e74c3c;
+	color: #fff;
+	width: 109px;
+	height: 40px;
+	border-radius: 5px;
+	border:none;
+	font-weight: bold;
+	transition: 0.4s;
+}
+.delUser:hover { background-color: #c0392b;cursor: pointer; }
+.bg {
+	display: none;
+	background-color: #000;
+	position: fixed;
+	top:0px;left: 0px;right: 0px;bottom: 0px;
+	opacity: 0.74;
+}
+.tambahUser,.infoAdmin {
+	display: none;
+	background-color: #fff;
+	border:1px solid #aaa;
+	width: 465px;
+	height: 609px;
+	position: absolute;
+	top:11px;left: 448px;
+}
+.formTambah {
+	margin-top:120px;
+	text-align: center;
+}
+#passa,#emaila { margin-top: 35px; }
+.notif {
+	display: none;
+	background-color: #fff;
+	width: 536px;
+	position: absolute;
+	top:200px;left: 410px;
+	text-align: center;
+}
+.isiNotif {
+	line-height: 69px;
+	font-size: 23px;
+}
+.judNot,.xNotif {
+	background-color: #e74c3c;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	line-height: 55px;
+	font-size: 26px;
+}
+.xNotif {
+	line-height: 40px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+@media(max-width: 480px) {
+	.kontenLogin {
+		margin:75px auto;
+		width: 95%;
+	}
+}
